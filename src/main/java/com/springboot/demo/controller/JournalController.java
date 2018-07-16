@@ -16,4 +16,11 @@ public class JournalController {
         model.addAttribute("journal", repo.findAll());
         return "index";
     }
+
+    @RequestMapping("/login")
+    public String login(Model model){
+        model.addAttribute("journal", repo.findAll());
+        return "index";
+    }
+
 }
