@@ -62,6 +62,7 @@ public class Journal {
 
     @Override
     public String toString(){
+        System.out.println("11111111");
         StringBuilder value = new StringBuilder("JournalEntry(");
         value.append("Id: ");
         value.append(id);
